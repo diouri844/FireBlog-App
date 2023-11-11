@@ -8,7 +8,7 @@ const message:Ref<string> = ref("Fire Blog Posts app with vue/pina and firebase"
 </script>
 
 <template>
-  <HelloWorld :msg="message" />
+  <router-view></router-view>
 </template>
 
 
